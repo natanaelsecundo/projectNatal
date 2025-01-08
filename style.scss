@@ -1,0 +1,155 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Great Vibes", serif;
+
+}
+
+/* Header */
+header {
+  height: 118px;
+  width: 100%;
+  background-color: #8B1414;
+  background-image: url(./assets/neve.png);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.BoxLogo {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.BoxLogo img {
+  height: 100px;
+  width: 100px;
+}
+
+.BoxLogo h1 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-left: 10px;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  font-size: 48px;
+}
+
+/* Informativos */
+.primeiroinformativo {
+  background-color: #8B1414;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+}
+
+.primeiroinformativo p {
+  width: 50%;
+  font-size: 25px;
+  margin-right: 20px;
+  
+}
+
+.primeiroinformativo img {
+  height:518px;
+  width: 1216px;
+}
+
+.segundoinformativo {
+  background-color: #8B1414;
+  background-image: url(./assets/neve.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+}
+
+.segundoinformativo p {
+  width: 50%;
+  font-size: 25px;
+  margin-left: 20px;
+  color: #E4EEF1;
+}
+
+.segundoinformativo img {
+  width: 50%;
+  height: 186px;
+  width: 188px;
+}
+
+/* Imagens Informativas */
+.informativos {
+  background-color: #ffd9ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+}
+
+.informativos img {
+  width: 367px;
+  height: 286px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: #8B1414;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  color: #E4EEF1;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+footer p {
+  margin: 0 5px;
+}
+
+footer img#logo {
+    width:44px; 
+    height :42px;
+}
+footer img {
+    width: 130px;; 
+    height :173px;
+}
+
+/* Responsividade */
+@media (max-width: 770px) {
+  header {
+    flex-direction: column;
+  }
+  .BoxLogo h1 {
+    font-size: 24px;
+  }
+  nav ul {
+    align-items: center;
+    gap: 10px;
+  }
+}
