@@ -143,6 +143,11 @@ footer img {
 
 /* Responsividade */
 @media (max-width: 770px) {
+  .primeiroinformativo img {
+  height:518px;
+  width: 770px;
+  background-image: url(./assets/papainoel.png);
+}
   header {
     flex-direction: column;
   }
